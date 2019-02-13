@@ -1,8 +1,15 @@
 package com.lambdaschool.dogs;
 
+import lombok.Data;
+
+import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
 
 // Dogs must have an auto generated id, breed name, average weight, boolean True/False if dog is ok for apt living.
+
+@Data
+@Entity
 
 public class Dogs
 {
